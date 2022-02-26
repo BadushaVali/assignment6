@@ -1,0 +1,55 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* div{
+    background-color: lightblue;
+}
+span{
+    background-color: aqua;
+} */
+
+/* .box1{
+width: 100px;
+height: 100px;
+background-color: bisque;
+float: right;
+margin-top: calc(100vh-100px);
+} */
+html{
+    font-size: 15px;
+    scroll-behavior:smooth;
+}
+body{
+    border: 0.3rem solid grey;
+    padding: 1rem;
+}
+header{
+    position: sticky;
+    top: 0;
+    
+}
+h2{
+    color: red;
+    text-decoration: underline;
+    margin: 1rem 1rem;
+}
+nav{
+    background-color: rgb(197, 197, 42);
+    padding: 0.5rem;
+    
+    
+}
+nav ul li{
+    display: inline-block;
+    padding: 0.5rem;
+    color: white;
+}
+li:hover{
+    background-color: rgb(49, 44, 44);
+    color: white;
+    cursor: pointer;
+}
